@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Tiny5x3";
+    src: url("fonts/TINY5x3-160.woff2") format("woff2");
+}
+
+body {
+    margin: 0;
+}
+
+.background {
+    height: 100vh;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.piso,
+.wifi,
+.slash{
+    margin: 0;
+    font-family: "Tiny5x3", sans-serif;
+    font-size: 300px;
+    text-shadow: 4px 4px 4px black;
+    line-height: 1;
+}
+
+.piso {
+    color: #e30000;
+}
+
+.wifi {
+    color: #59ff00;
+}
+
+.body-text {
+
+}
